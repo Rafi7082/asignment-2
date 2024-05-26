@@ -183,3 +183,63 @@ section {
     width: 253px;
     justify-content: space-between;
 }
+
+@media only screen and (max-width:688px) {
+
+    .main-head {
+
+        width: 100%;
+        background-color: rgba(205, 7, 7, 0.529);
+        padding: 0;
+        justify-content: center;
+
+
+    }
+
+    .main-head a {
+        font-size: 17px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .player {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 0;
+        grid-column-gap: 0;
+    }
+
+    .player-name h2 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .top-name {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .blogs {
+
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        grid-column-gap: 0;
+    }
+
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0;
+        grid-row-gap: 20px;
+        justify-items: center;
+    }
+
+}
